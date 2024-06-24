@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login and Profile</title>
+</head>
+<body>
+    <div id="app">
+        <div id="login-form">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="login()">Login</button>
+        </div>
+        <div id="profile" style="display: none;">
+            <h1 id="welcome-message"></h1>
+            <button onclick="logout()">Logout</button>
+            <!-- User profile and shopping cart details will be displayed here -->
+        </div>
+    </div>
+
+    <script>
+        async function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            try {
+                const response = await fetch('/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ username, password })
+                });
+                const data = await response.json();
+                document.getElementById('welcome-message').textContent = `Welcome, ${data.user.name}`;
+                document.getElementById('login-form').style.display = 'none';
+                document.getElementById('profile').style.display = 'block';
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        function logout() {
+            document.getElementById('login-form').style.display = 'block';
+            document.getElementById('profile').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
