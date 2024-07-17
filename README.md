@@ -83,3 +83,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Screenshots
 ![image](https://github.com/user-attachments/assets/03361e11-efa8-41dc-a62f-9edf6c1a0f25)
 
+## Contributors
+
+- [prisha-aa](https://github.com/prisha-aa)
+- [vibhu-123](https://github.com/vibhu-123)
+- [srai2225](https://github.com/srai2225)
+- [gaganvr](https://github.com/gaganvr)
