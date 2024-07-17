@@ -1,5 +1,4 @@
-#NIT_MARK : A SHOPPING WEBSITE FOR NIT KURUKSHETRA
-![image](https://github.com/user-attachments/assets/085026de-6ea1-4016-bd04-0a73dad98389)
+# NIT_MARK : A SHOPPING WEBSITE FOR NIT KURUKSHETRA
 
 
 ## Getting Started with Create React App
