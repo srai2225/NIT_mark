@@ -1,4 +1,6 @@
 # NIT_MARK : A SHOPPING WEBSITE FOR NIT KURUKSHETRA
+Hello folks to our project NIT_MARK, which was build with aim to improve the shopping experience for NIT Kurukshetra students, we propose an online platform connecting them with local shops. This platform offers a shop directory, online ordering with delivery options, real-time order updates, secure payment integration, and a feedback system. By providing convenient access to goods and services, we aim to support local businesses and streamline student shopping experiences.
+
 
 
 ## Getting Started with Create React App
