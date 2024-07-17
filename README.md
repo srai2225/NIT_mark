@@ -1,5 +1,6 @@
 # NIT_MARK : A SHOPPING WEBSITE FOR NIT KURUKSHETRA
-![image](https://github.com/user-attachments/assets/60158506-4f98-459e-85c7-f6b7a81c7ea3)
+![image](https://github.com/user-attachments/assets/2f69d3a6-6300-4345-b501-7a9ae80496b4)
+
 
 
 Hello folks to our project NIT_MARK, which was build with aim to improve the shopping experience for NIT Kurukshetra students, we propose an online platform connecting them with local shops. 
@@ -80,3 +81,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 # Screenshots
+![image](https://github.com/user-attachments/assets/03361e11-efa8-41dc-a62f-9edf6c1a0f25)
+
