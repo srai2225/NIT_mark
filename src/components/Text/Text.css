@@ -1,0 +1,35 @@
+h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #f1f0f4 0%,
+    /* #eea8dd 29%,
+    #eca2d9 67%, */
+    hsl(353, 100%, 78%),
+    hsl(353, 100%, 78%)
+    /* #f38ddd 100% */
+  );
+  
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 100px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
